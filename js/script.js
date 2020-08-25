@@ -2,8 +2,8 @@
 var cognomeUtente = prompt("inserisci il tuo cognome");
 // creo array cognomi
 var cognomi = ["rossi","bianchi","ninti","partisi"];
+console.log(cognomi);
 // inserisco cognomeUtente in array cognomi
-function myFunction() {
-  cognomeUtente.push("");
-
-}
+cognomi.push(cognomeUtente);
+cognomi.sort();
+console.log(cognomi);
